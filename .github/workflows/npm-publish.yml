@@ -14,11 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      with:
-          node-version: 20
       - uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: '20'
       - run: npm install
       - run: npm test
       - run: npm run build
@@ -28,11 +26,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      with:
-          node-version: 20
       - uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: '20'
           registry-url: https://registry.npmjs.org
       - run: npm publish
         env:
