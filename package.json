@@ -1,11 +1,39 @@
 {
-  "name": "vipmemos",
-  "version": "1.0.1",
-  "description": "",
+  "name": "static",
+  "version": "1.0.0",
+  "description": "This is a sample demo about npm",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" "
+  "private": false,
+  "scripts": {},
+  "keywords": [
+    "npm",
+    "demo"
+  ],
+  "engines": {
+    "node": ">=20"
   },
-  "author": "",
-  "license": "ISC"
+  "type": "module",
+  "author": {
+    "name": "vipmemos",
+    "email": "vipmemos@qq.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipmemos/static.git"
+  },
+  "homepage": "https://github.com/vipmemos/static",
+  "bugs": {
+    "url": "https://github.com/vipmemos/static/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "provenance": true
+  },
+  "contributors": [
+    {
+      "name": "vipmemos",
+      "email": "vipmemos@qq.com"
+    }
+  ]
 }
